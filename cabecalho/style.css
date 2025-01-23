@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Cabin", serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    color: #FDFFFA;
+    background-color:#000000dc;
+    border-top:2px solid #4e4e4e;
+    border-bottom: 2px solid #4e4e4e;
+     align-items: center;
+     margin-right: 3px;
+    
+
+}
+
+
+a {
+    text-decoration: none;
+    color: white
+    
+    
+}
+
+a:hover {
+    color:red;
+    text-decoration: underline;
+    
+}
+
+
+img {
+    border-radius: 50px;
+    border:2px solid white;
+}
+
+img:hover {
+    border:2px solid red;
+    cursor:pointer;
+}
+
+h2 {
+    font-size:20px;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;;
+    margin: 20px;
+    text-align: justify;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.img {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+   
+}
+
+
+.full {
+    border-radius: 6px;
+}
+
+.p {
+    padding-bottom:30px;
+}
+
+.habilidades {
+    display:flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.linux {
+    padding-left: 1px;
+}
+
+.video {
+    margin-left:60px;
+    border-bottom: 1px solid black;
+    padding:9px;
+}
+
+
+.server {
+    margin:10px;
+    border: 2px solid;
+    padding:20px;
+    background-color: #8080807c;
+}
+
+.input {
+    
+}
+
+input {
+
+    display:flex;
+    flex-direction: row;
+    height: 100px;
+    border: 4px solid black;
+    text-align: justify;
+    padding-left: 20px;
+    outline: none;
+    width: 900px;
+   
+}
+
+input::placeholder {
+    
+    font-size: 29px;
+}
+
+.linha {
+    display:flex;
+    gap:25px;
+}
+
+.botao {
+
+    display:flex;
+    width: 60px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+    border-radius: 10px;
+    border:1px solid rgb(160, 12, 12);
+    font-size: 20px;
+    background-color:#3afc3ac7;
+}
+
+.botao:hover {
+    background-color:#0da80dc5;
+  
+}
